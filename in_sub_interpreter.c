@@ -22,7 +22,7 @@ static PyObject* in_sub_interpreter(PyObject* self, PyObject* args)
 static PyMethodDef Methods[] =
 {
      {
-         "in_sub_interpreter", in_sub_interpreter, METH_VARARGS,
+         "in_sub_interpreter", in_sub_interpreter, METH_NOARGS,
          "Returns True if running in a Python sub interpreter."
      },
      {NULL, NULL, 0, NULL}
